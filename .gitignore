@@ -1,0 +1,24 @@
+# macOS / Xcode
+.DS_Store
+*.xcuserstate
+DerivedData/
+
+# Local credentials and Python environment
+.env
+.venv/
+__pycache__/
+*.py[cod]
+Secrets.plist
+
+# Reproducible build outputs
+build/
+worker-build/
+worker-dist/
+*.app
+*.dmg
+*.zip
+
+# Downloaded model and font assets must not be committed
+*.onnx
+SourceHanSerifCN-*.ttf
+

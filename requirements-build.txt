@@ -1,0 +1,10 @@
+# Runtime dependencies used by the vendored pdf2zh 1.9.11 pipeline.
+# Do not install the pdf2zh wheel here: vendor/pdf2zh is TrPaper's modified copy.
+BabelDOC==0.2.33
+azure-ai-translation-text==1.0.1
+deepl==1.33.0
+ollama==0.6.3
+pikepdf==9.11.0
+requests==2.34.2
+xinference-client==4.2.0
+pyinstaller==6.22.3
